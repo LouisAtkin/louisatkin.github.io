@@ -87,18 +87,18 @@
 <body>
   <h1>Guess the Image!</h1>
   <div id="image-container">
-    <img id="game-image" src="Christmas.jpg" alt="Guess" />
+    <img id="game-image" src="Dog_Day.jpg" alt="Guess" />
   </div>
   <div class="options" id="options"></div>
   <div class="message" id="message"></div>
 
   <script>
-    const correctAnswer = 'Christmas';
+    const correctAnswer = 'Dog Day';
     let attempt = 0;
     const maxAttempts = 3;
     const blurLevels = ['blur(30px)', 'blur(20px)', 'blur(10px)'];
 
-    const allOptions = ['Olympics', 'Summer Party', 'Christmas', 'Halloween', 'Dog Day'];
+    const allOptions = ['Rock Paper Scissors', 'Summer Party', 'Christmas', 'Halloween', 'Dog Day'];
 
     // Shuffle function to randomize answer choices
     function shuffle(array) {
